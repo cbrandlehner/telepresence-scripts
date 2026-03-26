@@ -37,3 +37,9 @@ Sends the device into standby mode.
 Edit the files to configure the device hostname and your SSH username.
 
 Create a file (.mx300-pass) which contains your ssh password.
+
+# Requirements
+
+The script relies on sshpass which should be available in major distributions.
+
+brew install sshpass or sudo apt-get install sshpass or yum install epel-release && yum install openssh-clients
